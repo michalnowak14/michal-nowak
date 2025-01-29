@@ -53,11 +53,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        Passionate about building responsive and user-friendly websites with modern web technologies.
-        Eager to learn and grow in web development, with hands-on experience in HTML, CSS, JavaScript, React and front-end frameworks.
+          Eager to learn and grow in web development, with hands-on experience
+          in HTML, CSS, JavaScript, React and front-end frameworks.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button> 
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>
