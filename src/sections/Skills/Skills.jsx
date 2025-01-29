@@ -19,7 +19,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkmarkIcon} skill={"React"} />
-        <SkillList src={checkmarkIcon} skill={""} />
+        <SkillList src={checkmarkIcon} skill={"Bootstrap"} />
         <SkillList src={checkmarkIcon} skill={"Tailwind CSS"} />
       </div>
     </section>
