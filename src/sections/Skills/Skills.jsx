@@ -34,7 +34,7 @@ function Skills() {
         stagger: 0.15,
         scrollTrigger: {
           trigger: skillsRef.current,
-          start: "top 80%",
+          start: "top 50%",
           toggleActions: "play none none reverse",
         },
       }
@@ -63,11 +63,16 @@ function Skills() {
         <SkillList
           className="stagger-skill"
           src={checkmarkIcon}
-          skill={"Node"}
+          skill={"Typescript"}
         />
       </div>
       <hr />
       <div className={styles.skillList}>
+        <SkillList
+          className="stagger-skill"
+          src={checkmarkIcon}
+          skill={"Node"}
+        />
         <SkillList
           className="stagger-skill"
           src={checkmarkIcon}
